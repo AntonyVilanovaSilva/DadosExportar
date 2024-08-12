@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="xalmoxarifadocopiaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Classe">
+    <Key>
+      <PropertyRef Name="ID_CLAS" />
+    </Key>
+    <Property Name="ID_CLAS" Type="int" Nullable="false" />
+    <Property Name="ID_SUB_GRU" Type="int" />
+    <Property Name="NOME_CLA" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="xalmoxarifadocopiaModelStoreContainer">
+    <EntitySet Name="Classe" EntityType="Self.Classe" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

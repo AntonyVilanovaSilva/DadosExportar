@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="xalmoxarifadocopiaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Classe">
+    <Key>
+      <PropertyRef Name="ID_CLAS" />
+    </Key>
+    <Property Name="ID_CLAS" Type="Int32" Nullable="false" />
+    <Property Name="ID_SUB_GRU" Type="Int32" />
+    <Property Name="NOME_CLA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="xalmoxarifadocopiaEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Classe" EntityType="Self.Classe" />
+  </EntityContainer>
+</Schema>

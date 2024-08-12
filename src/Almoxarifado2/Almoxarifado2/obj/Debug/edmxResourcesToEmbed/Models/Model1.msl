@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="xalmoxarifadocopiaModelStoreContainer" CdmEntityContainer="xalmoxarifadocopiaEntities1">
+    <EntitySetMapping Name="Classe">
+      <EntityTypeMapping TypeName="xalmoxarifadocopiaModel.Classe">
+        <MappingFragment StoreEntitySet="Classe">
+          <ScalarProperty Name="ID_CLAS" ColumnName="ID_CLAS" />
+          <ScalarProperty Name="ID_SUB_GRU" ColumnName="ID_SUB_GRU" />
+          <ScalarProperty Name="NOME_CLA" ColumnName="NOME_CLA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
